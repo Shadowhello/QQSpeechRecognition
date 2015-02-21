@@ -30,7 +30,7 @@ er.xml
 #
 #
 HWND win = FindWindowA("TXGuiFoundation", "QQ");
-win是一个窗口句柄
+win是窗口句柄，TXGuiFoundation是类名，QQ是标题，类名和标题通过软件spy获得
 #
 语音打开qq：
 void openQQ();
@@ -71,6 +71,9 @@ SetWindowPos(win, NULL, rectwin->left - 200, rectwin->top, 300, 300, 1);
 void right();
 #
 SetWindowPos(win, NULL, rectwin->left + 200, rectwin->top, 300, 300, 1);
+youku视频教程网址：
+--
+http://v.youku.com/v_show/id_XODk3MjE4Njcy.html
 语言
 --
 c/c++,xml
